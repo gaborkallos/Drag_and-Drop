@@ -18,6 +18,7 @@ function changeCardBackground() {
 
 function changeBackground() {
     let element = document.getElementById('body');
+    element.style.backgroundImage = 'url(../static/image/background1.jpg)';
     element.addEventListener('click', function () {
         let number = getRandomInt(1, 7);
             this.style.backgroundImage = 'url(../static/image/background' + number + '.jpg)';
