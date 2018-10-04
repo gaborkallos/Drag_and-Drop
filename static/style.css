@@ -1,11 +1,12 @@
 body {
-    background: src('../static/image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
 }
 
 h1{
     text-align: center;
-    color: white !important;
+    color: black !important;
 }
 
 .main_card{
@@ -39,8 +40,4 @@ h1{
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.changecolor{
-    background-color: green !important;
 }
