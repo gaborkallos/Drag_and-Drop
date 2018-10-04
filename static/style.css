@@ -3,26 +3,17 @@ body {
     text-align: center;
 }
 
-.left {
-    color: red;
-}
-
-.right {
-    color: yellow;
-}
-
-.left_card{
-    background: dodgerblue;
-    text-align: left;
-    font-size: x-large;
-    cursor: grab;
-}
-
-.right_card{
-    background: black;
-    text-align: right;
-    font-size: x-large;
-    cursor: grab;
+.main_card{
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 400px;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .card {
@@ -37,8 +28,10 @@ body {
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
+    cursor: grab;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background: aqua;
 }
