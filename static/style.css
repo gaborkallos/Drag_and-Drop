@@ -1,6 +1,11 @@
 body {
-    background: lightgrey;
+    background: black !important;
     text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white !important;
 }
 
 .main_card{
