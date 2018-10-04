@@ -8,19 +8,21 @@ body {
 }
 
 .right {
-    color: black
+    color: yellow;
 }
 
 .left_card{
     background: dodgerblue;
     text-align: left;
     font-size: x-large;
+    cursor: grab;
 }
 
 .right_card{
-    background: blanchedalmond;
+    background: black;
     text-align: right;
     font-size: x-large;
+    cursor: grab;
 }
 
 .card {
@@ -30,7 +32,6 @@ body {
     transition: 0.3s;
     width: 400px;
     border: 1px solid black;
-    margin-top: 10%;
     margin: auto;
     padding-left: 5%;
     padding-right: 5%;
@@ -40,3 +41,4 @@ body {
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
