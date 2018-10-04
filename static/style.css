@@ -1,5 +1,5 @@
 body {
-    background: black !important;
+    background: src('../static/image/background.jpg');
     text-align: center;
 }
 
